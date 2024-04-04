@@ -35,8 +35,9 @@ This project focuses on creating a web server with Apache on Ubuntu and simulati
      ```
 
 4. **Log Analysis Script**:
-   - Create a Bash script (e.g., `analyze_logs.sh`) to parse web server logs.
+   - Create a Bash script (e.g., `detect_ddos.sh`) to parse web server logs.
    - Check for IPs with unusually high request rates.
+   - Detection completed. Results logged in `ddos_detected.txt`
 
 ## SSH Configuration
 ### Server Configuration
